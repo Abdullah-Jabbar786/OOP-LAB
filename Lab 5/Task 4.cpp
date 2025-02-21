@@ -29,6 +29,7 @@ class Smartphone
     Smartphone()
     {
         cout << "Enter name of smartphone: ";
+        cin.ignore();
         getline(cin , name);
         cout << "Enter Manufacturer: ";
         cin.ignore();
